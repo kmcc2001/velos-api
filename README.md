@@ -71,3 +71,8 @@ C'est la phrase des trois jours. C'est aussi la grille de lecture de la correcti
 
 # Documentation des règles et du travail à réalisé 
 
+
+## Endpoints
+- /sante
+- /stations
+- /disponibilite
