@@ -68,4 +68,6 @@ C'est la phrase des trois jours. C'est aussi la grille de lecture de la correcti
 
 ➡️ Commence par l'énoncé : **[`1-enonce.md`](./1-enonce.md)**.
 
-Description version A
+
+# Documentation des règles et du travail à réalisé 
+
