@@ -67,3 +67,5 @@ Tout ce qui est configuration devient un fichier, ce fichier vit dans Git, et un
 C'est la phrase des trois jours. C'est aussi la grille de lecture de la correction : un geste que tu as fait à la main, sans laisser de trace dans le dépôt, ne se voit pas et ne se note pas.
 
 ➡️ Commence par l'énoncé : **[`1-enonce.md`](./1-enonce.md)**.
+
+Description version A
