@@ -1,0 +1,29 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: velos-db
+    restart: always
+    environment:
+      POSTGRES_DB: velos_db
+      POSTGRES_USER: velos_user
+      POSTGRES_PASSWORD: velos_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+
+  api:
+    image: kayam7/velos-api:1.0.0
+
+    container_name: velos-api
+    ports:
+      - "8001:8000"
+    environment:
+      - DATABASE_URL=postgresql://velos_user:velos_password@db:5432/velos_db
+      - PORT=8000
+    depends_on:
+      - db
+
+volumes:
+  db_data:
