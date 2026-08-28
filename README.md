@@ -76,3 +76,5 @@ C'est la phrase des trois jours. C'est aussi la grille de lecture de la correcti
 - /sante
 - /stations
 - /disponibilite
+test protection
+test protection
